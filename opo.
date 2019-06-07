@@ -1,0 +1,13 @@
+num,e=map(int,input().split())
+w=list(map(int,input().split()))
+p=1
+for o in range(0,len(w)):
+    for e in range(o+1,len(w)):
+        q=w[o]+w[e]
+        if q==y:
+            p=0
+if p==0:
+    print("yes")
+else:
+    print("no")
+
