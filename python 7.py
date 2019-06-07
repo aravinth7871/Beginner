@@ -1,3 +1,3 @@
-st="hello"
+string="hello"
 n=input("No of times to repeat:")
-print(st * int(n))
+print(string * int(n))
