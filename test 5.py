@@ -1,6 +1,6 @@
-numb1 = 25
-numb2 = 26
-numb3 = 22
+numb1 = 1
+numb2 = 1
+numb3 = -4
 if (numb1 >= numb2) and (numb1 >= numb3):
    largest = numb1
 elif (numb2 >= numb1) and (numb2 >= numb3):
